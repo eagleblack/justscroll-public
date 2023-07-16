@@ -1,0 +1,15 @@
+
+###Register Route
+POST http://localhost:3000/auth/register 
+headers:'Content-Type': 'application/json'
+
+
+
+body:
+{
+    "username":"Nikhil_jha",
+    "password":"helloWorld"
+}
+
+###
+GET http://localhost:3000/post/getUserPosts

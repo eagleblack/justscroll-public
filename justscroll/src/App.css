@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.appBody{
+  display: flex;
+
+  flex-direction: column;
+  background-color: black;
+  color: antiquewhite;
+  text-align:center;
+  justify-content: center;
+   height:100vh
+}
+.appHeader
+{
+  background-color: white;
+  width: 100%;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  
+  
+}
+.appLogo
+{
+  width: 30px;
+  height:30px;
+  margin-left: 10px;
+}
+.sideNavigation
+{
+ 
+  position: fixed;
+  height:100vh;
+  left:0;
+  top:40px;
+  height:100vh;
+  background-color: white;
+  min-width:200px;
+  padding:10px;
+  text-align: left;
+}
+
+
